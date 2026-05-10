@@ -129,6 +129,7 @@
     height: 319px;
     overflow: hidden;
     padding: 41px 0;
+    position: relative;
   }
   .about .swiper-wrapper {
     height: auto;
@@ -166,6 +167,9 @@
   .about .about_desc {
     padding: 48px 8px 0;
     position: relative;
+    background-image: url(./img/about_map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   .about .desc_txt {
     font-size: 18px;
