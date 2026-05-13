@@ -49,8 +49,10 @@
 
 <div class="header_sp">
 <div class="header_inner">
-  <img class="header_logo" src="./img/header_logo.png" alt="ヘッダーロゴ" 154px" height="38">
-
+  <div logo_wrap>
+  <img class="header_logo logo_default" src="./img/header_logo.png" alt="ヘッダー通常ロゴ" width="154px" height="38">
+<img class="header_logo logo_open" src="./img/open_logo.png" alt="オープンロゴ" width="150px" height="40px">
+  </div>
 <div class="button_wrap">
     <button type="button" class="hm_button">
       <div class="hm_btn">
@@ -63,7 +65,6 @@
 </div>
 
  <div class="hm_page">
-
     <nav class="nav_menu">
       <ul class="nav_list">
         <li class="nav_item"><a href="#about">ABOUT US<br><span>TETOTEについて</span></a></li>
@@ -75,7 +76,7 @@
         
       </ul>
     </nav>
-   <div class="button_wrap">
+   <div class="Button_wrap">
    <button type="button" class="button1">
     <p class="Button_txt">募集要項</p>
    </button>
@@ -93,8 +94,8 @@
 <main>
 <div class="mv">
   <div class="mv_inner">
-<div class="mv_img"></div>
-<div mv_txtArea>
+<div class="mv_img">
+  <div class="mv_txtArea">
 <h2 class="mv_title">AECOME A<br>CHALLENGER.</h2>
 <div class="subtitle">
   <p class="sub_txt">君の挑戦が、意思が、未来を変える</p>
@@ -108,6 +109,8 @@
 </div>
 </div>
   </div>
+</div>
+
   </div>
 </div>
 
@@ -125,8 +128,7 @@
 <img class="about_img" src="./img/desc_img3.png" alt="男性の電話対応" width="271px" height="210px">
 </div>
   </div>
-</div>
- <div class="title_wrap">
+   <div class="title_wrap">
     <div class="txt_wrap1">
       <p class="title_txt">後悔しないキャリアを作る、</p>
     </div>
@@ -135,6 +137,8 @@
     </div>
 
   </div>
+</div>
+
 
   <div class="about_desc">
 <p class="desc_txt">「人手不足」<br>
@@ -148,12 +152,12 @@
 
 <div class="map" ></div>
   </div>
-
-  <button type="button" class="about_button">
+<div class="about_button">
+  <button type="button">
     <p class="button_txt">VIEW MORE</p>
+   <img class="button_arrow" src="./img/button_arrow.png" width="16px" height="16px">
   </button>
-      <img class="button_arrow" src="./img/button_arrow.png" width="16px" height="16px">
-
+</div>
 </div>
  </section>
 <section id="STAFF" class="staff">
@@ -166,47 +170,52 @@
 <div class="swiper-wrapper">
 <div class="swiper-slide">
 <img class="staff_img" src="./img/staff_img1.png" alt="スタッフ男性⓵" width="246px" height="311pe">
-</div>
-<div class="staff_dssc">
+<div class="staff_desc">
   <p class="desc_txt">「あなたが担当で良かった」</p>
   <p class="desc_txt">この一言が、最高のやりがい</p>
   <p class="carry_txt">コンサルタント  2011年入社</p>
   <p class="name_txt">西村 優</p>
 </div>
+</div>
+
 <div class="swiper-slide">
 <img class="staff_img" src="./img/staff_img2.png" alt="スタッフ女性⓶　" width="246px" height="311pe">
-</div>
-<div class="staff_dssc">
+<div class="staff_desc">
   <p class="desc_txt">全力で考えぬける環境</p>
   <p class="desc_txt">試練の数だけ強くなれました</p>
   <p class="carry_txt">コンサルタント  2015年入社</p>
   <p class="name_txt">橋本 拓也</p>
 </div>
+
+</div>
 <div class="swiper-slide">
 <img class="staff_img" src="./img/staff_img3.png" alt="スタッフ男性⓷" width="246px" height="311pe">
-</div>
-<div class="staff_dssc">
+<div class="staff_desc">
   <p class="desc_txt">お客様も知らない課題を</p>
   <p class="desc_txt">一緒に探し出す醍醐味</p>
   <p class="carry_txt">ソリューション営業  2017年入社</p>
   <p class="name_txt">青木 美月</p>
 </div>
+
+</div>
 <div class="swiper-slide">
 <img class="staff_img" src="./img/staff_img4.png" alt="スタッフ男性⓸" width="246px" height="311pe">
-</div>
-<div class="staff_dssc">
+<div class="staff_desc">
   <p class="desc_txt">「あなたが担当で良かった」</p>
   <p class="desc_txt">この一言が、最高のやりがい</p>
   <p class="carry_txt">コンサルタント  2004年入社</p>
   <p class="name_txt">佐々木 健</p>
-</div>
-</div>
-</div>
-  <button type="button" class="staff_button">
-    <p class="button_txt">VIEW MORE</p>
-  </button>
-      <img class="button_arrow" src="./img/button_arrow.png" width="16px" height="16px">
 
+</div>
+</div>
+</div>
+</div>
+<div class="staff_button">
+  <button type="button">
+    <p class="button_txt">VIEW MORE</p>
+        <img class="button_arrow" src="./img/button_arrow.png" width="16px" height="16px">
+  </button>
+</div>
   </div>
 </section>
 
@@ -244,7 +253,10 @@
 </div>
 
 </section>
+<div class="contener">
 <section id="BLOG" class="blog">
+  <div class="blog_inner">
+    <h2 class="section_title">採用ブログ</h2>
 <p class="blog_txt">採用情報やイベント情報、社員の紹介など、
 日々の現場の様子をご紹介します。</p>
 
@@ -252,14 +264,117 @@
   <li class="blog_item">
     <img class="blog_img" src="./img/blog_img1.png" alt="研修風景" width="121px" height="121px">
  <div class="txt_area">
-  
- </div>
+  <div class="memo_wrap"> 
+    <img class="memo" src="./img/memo.png" alt="メモ" width="12px" height="14px">
+  <p class="memo_txt">社内研修</p>
+  </div>
+    <p class="item_txt"><span>新入社員向けに、入社前研修を行いました。</span></p>
+<p class="item_txt">2025.03.25</p>
+</div>
+  </li>
+    <li class="blog_item">
+    <img class="blog_img" src="./img/blog_img2.png" alt="研修風景" width="121px" height="121px">
+ <div class="txt_area">
+  <div class="memo_wrap"> 
+    <img class="memo" src="./img/memo.png" alt="メモ" width="12px" height="14px">
+  <p class="memo_txt">社内研修</p>
+  </div>
+    <p class="item_txt"><span>内定者向け研修を行いました。</span></p>
+<p class="item_txt">2024.08.25</p>
+</div>
+  </li>
+    <li class="blog_item">
+    <img class="blog_img" src="./img/blog_img3.png" alt="研修風景" width="121px" height="121px">
+ <div class="txt_area">
+  <div class="memo_wrap"> 
+    <img class="memo" src="./img/memo.png" alt="メモ" width="12px" height="14px">
+  <p class="memo_txt">社内イベント</p>
+  </div>
+    <p class="item_txt"><span>【社員旅行2023】沖縄でリフレッシュ！チームワークも深まった！</span></p>
+<p class="item_txt">2024.03.25</p>
+</div>
+  </li>
+    <li class="blog_item">
+    <img class="blog_img" src="./img/blog_img4.png" alt="研修風景" width="121px" height="121px">
+ <div class="txt_area">
+  <div class="memo_wrap"> 
+    <img class="memo" src="./img/memo.png" alt="メモ" width="12px" height="14px">
+  <p class="memo_txt">お知らせ</p>
+  </div>
+    <p class="item_txt"><span>【新卒採用2024】エントリー受付中！</span></p>
+<p class="item_txt">2024.03.01</p>
+</div>
   </li>
 </ul>
+<div class="blog_button">
+  <div class="button">→</div>
+  <p class="button_txt">VIEW MORE</p>
+</div>
+  </div>
 </section>
 
-
-
+<section id="CARRER" class="carrer">
+<div class="carrer_inner">
+<div class="section_title">採用情報</div>
+<p class="carrer_txt">募集要項（職種、業務内容、応募条件、選考フロー）とよくある質問・会社概要などをまとめています。</p>
+<div class="button_wrap">
+<div class="carrer_button">
+  <button type="button">
+    <p class="button_txt">募集要項</p>
+        <img class="button_arrow" src="./img/button_arrow.png" width="16px" height="16px">
+  </button>
+  </div>
+  <div class="carrer_button">
+  <button type="button">
+    <p class="button_txt">よくある質問</p>
+        <img class="button_arrow" src="./img/button_arrow.png" width="16px" height="16px">
+  </button>
+  </div>
+  <div class="carrer_button">
+  <button type="button">
+    <p class="button_txt">会社概要</p>
+        <img class="button_arrow" src="./img/button_arrow.png" width="16px" height="16px">
+  </button>
+  </div>
+  </div>
+</div>
+</section>
+</div>
 </main>
-
+<footer>
+  <div class="footer_inner">
+    <div class="footer_img">
+      <div class="footer_txtArea">
+        <p class="footer_txt">わたしたちと一緒に働く仲間を募集中です。<br>少数精鋭のチームで、<br>あなたも会社も一緒に成長していきましょう。</p>
+  <div class="footer_button">
+  <button type="button">
+    <p class="button_txt">ENTRY</p>
+        <img class="button_arrow" src="./img/button_arrow.png" width="16px" height="16px">
+  </button>
+  </div>
+      </div>
+    </div>
+    <ul class="footer_list">
+      <li class="footer_item">ホーム</li>
+            <li class="footer_item">TETOTEについて</li>
+      <li class="footer_item">人を知る</li>
+      <li class="footer_item">研修制度とキャリアパス</li>
+      <li class="footer_item">福利厚生</li>
+      <li class="footer_item">採用ブログ</li>
+      <li class="footer_item">募集要項</li>
+      <li class="footer_item">よくある質問</li>
+      <li class="footer_item">会社概要</li>
+    </ul>
+    <div class="logo_wrap">
+      <img class="sns_logo" src="./img/facebook_logo.png" alt="Facebookロゴ" width="24px" height="24px">
+         <img class="sns_logo" src="./img/twitter_logo.png" alt="twitterロゴ" width="24px" height="24px">
+      <img class="sns_logo" src="./img/youtube_logo.png" alt="youtubeロゴ" width="24px" height="24px">
+    </div>
+    <div class="footer_logo"></div>
+  </div>
+  <div class="copy">© 2024 TETOTE All Right Reserved.</div>
+</footer>
+<script src="./hm.js"></script>
+<script src="./main.js"></script>
+<script src="./swiper.js"></script>
 </body>
