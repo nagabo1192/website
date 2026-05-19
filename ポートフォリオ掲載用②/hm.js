@@ -15,7 +15,7 @@ $(function(){
     $(".hm_page").removeClass("open");
     $(".header_inner").toggleClass("open");
     
-    var target = $($(this).attr("href")).offset().top - 70;
+    var target = $($(this).attr("href")).offset().top - 100;
     // target -= 70;
     $("html, body").animate({scrollTop:target}, 1000,"linear");
     return false;
