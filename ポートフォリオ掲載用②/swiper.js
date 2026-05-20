@@ -15,8 +15,8 @@ const swiper = new Swiper(".swiper", {
   },
   // 前後の矢印
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".staff-next",
+    prevEl: ".staff-prev",
   },
 
     breakpoints: {
