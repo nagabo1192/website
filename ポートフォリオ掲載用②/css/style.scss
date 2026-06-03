@@ -1035,6 +1035,28 @@ background-color: #FAF7F1 ;
     margin: 0 30px 0;
   }
 }
+.page-about{
+
+
+    .header_inner{
+  background-color: #FAF7F1;
+}
+ .hm_btnLine{
+      background: #000;
+    }
+
+    .button_txt{
+      color: #000;
+    }
+  .logo_default{
+    opacity: 0;
+  }
+
+  .logo_open{
+    opacity: 1;
+  }
+}
+
 .mv{
 
 .mv_img{
@@ -1152,6 +1174,61 @@ margin: 21px 0;
   font-size: 14px;
 }
 }
+.page-about{
+
+  .mv_txtArea{
+    top: 196px;
+        left: 232px;
+    
+  }
+  .mv_title{
+    font-size: 64px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    color: #000;
+    padding: 3px 10px;
+    margin: 0;
+  }
+  .subtitle1{
+    background-color: #FFFFFF;
+    width: 207px;
+margin: 21px 0;
+  }
+    .subtitle2{
+    background-color: #FFFFFF;
+    width: 243px;
+  }
+  .sub_txt{
+        font-size: 24px;
+    font-weight: bold;
+     color: #000;
+      padding: 3px 10px;
+  }
+  .subtitle2 .sub_txt{
+    font-size: 16px;
+    font-weight: bold;
+     color: #988C2C;
+      padding: 7px 10px;
+  }
+  
+  .mv_img{
+  background-image: url(../img/aboutPC_mv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 36vw;
+}
+.breadcrumb{
+  background-color: #F0F0F0;
+}
+.bread_txt{
+  padding: 20px 242px 0;
+  height: 54px;
+  font-size: 14px;
+}
+}
+
 .about{
 
   .swiper{
@@ -1242,6 +1319,101 @@ background-position: right 60% bottom -48%;
   right: 0;
   transform: translate(-17px, 23px);
 
+}
+}
+.page-about{
+  .about_inner{
+    padding: 66px  208px 139px;
+}
+.section_title{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 86px;
+}
+.about_item{
+  padding: 44px 80px 30px;
+  background-color: #FAF7F1;
+margin-bottom: 35px;
+}
+.about_item:last-child{
+  margin-bottom: 0;
+}
+.subtitle_wrap{
+  display: flex;
+  margin-bottom: 21px;
+  align-items: center;
+  gap: 21px;
+}
+.number{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        text-decoration: none;
+        border: 1px solid;
+}
+.subtitle{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.item_txt{
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.title{
+font-size: 32px;
+font-weight: bold;
+margin: 125px 400px 109px;
+text-align: center;
+}
+.message_inner{
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  position: relative;
+}
+.message_inner::before{
+  content: "あなたがやりたいこと\Aそれを全力でサポートできる、\AそれがTETOTEの強みです。";
+       
+  position: absolute;
+        top: 18px;
+        right: 157px;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 150%;
+ white-space: pre-line;
+
+}
+
+.message_txtArea{
+  margin-top: 206px;
+  position: relative;
+}
+.message_txtArea::after{
+  content: "";
+  position: absolute;
+  background-image: url(../img/message_name.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: -21px;
+  left: 0;
+  width: 185px;
+  height: 35px;
+}
+.message_txt{
+  font-size: 16px;
+  line-height: 200%;
+  margin-bottom: 31px;
+}
+.message_img{
+  width: 484px;
+  height: 629px;
 }
 }
 .staff{
